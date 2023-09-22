@@ -75,13 +75,14 @@ section{
     margin-right: 10px;
     margin-top: -70px;
 }
-/* Pasos para la compra */
+/* Atras */
 
 .atras{
     display: flex;
-  justify-content: end;
-  margin: 30px;
-  margin-top: 20px;
+  justify-content: start;
+  margin-right: 20px;
+  margin-top: -10px;
+  width: 120px;
 }
 
 /* Pasos para la compra */
@@ -106,7 +107,7 @@ margin-bottom: 130px;
     font-size: 1.3rem;
 }
 
-.btn.btn-primaryhover{
+.btn.btn-primary:hover{
     background-color:#7b7a69;
     color: white;
 }
